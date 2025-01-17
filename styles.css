@@ -36,7 +36,6 @@ header {
     padding-top: 40px;
 }
 
-
 .navLinks > li {
     list-style: none;
 }
@@ -45,4 +44,35 @@ header {
     color: black;
 }
 
+.menuBar {
+    display: none;
+}
+.menuBar {
+    font-size: 1.430rem ;
+    font-weight: bold;
+}
+
 /* Responsive Style */
+@media screen and (max-width: 576px) {
+    .navLinks {
+        display: none;
+    }
+    .menuBar {
+        display: block;
+    }
+    .logo > img {
+        height: 30px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .navLinks {
+        display: none;
+    }
+    .menuBar {
+        display: block;
+    }
+     .logo > img {
+        height: 35px;
+    }
+}
