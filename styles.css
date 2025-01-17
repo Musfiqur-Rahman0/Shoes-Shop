@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif ;
+}
+
+header {
+    width: 100%;
+}
+
+
+
+/* shared Styled */
+.navbar , .navLinks{
+    display: flex;
+    align-items: center;
+}
+.navbar {
+    justify-content: space-between;
+}
+.navLinks {
+    gap: 0.8rem;
+}
+.navbar {
+    padding: 10px 20px;
+}
+
+/* YOU nick style */
+.navbar {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+
+.navLinks > li {
+    list-style: none;
+}
+.navLinks > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Responsive Style */
